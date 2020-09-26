@@ -1,0 +1,14 @@
+td {
+    height: 3vh;
+    width: 3vw;
+
+    /*background-color: white;*/
+}
+
+body {
+    background-color: black;
+}
+
+button {
+    font-size: 1vw;
+}
