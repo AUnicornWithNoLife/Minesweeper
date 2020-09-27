@@ -8,7 +8,7 @@ function generate(){
         out += "<tr>";
 
         for (var y = 0; y <= ysize; y++){
-            out += "<td><button id='" + String(x) + "," + String(y) + "', onmousedown=press(this);''>N</button></td>";
+            out += "<td id='" + String(x) + "," + String(y) + "', class='up', onmousedown='press(this);'></td>";
         }
 
         out += "</tr>";

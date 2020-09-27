@@ -14,6 +14,22 @@ $(document).ready(function(){
     });
 });
 
-function press(id){
-    console.log(id.id);
-}
+/*function press(id){
+    var idd = "#" + id.id;
+
+    var clas = id.className;
+
+    $(idd).attr("class", "tttt");
+
+    console.log(idd);
+    console.log(clas);
+
+    if (clas == "down"){
+        clas = "up";
+    }else{
+        clas = "down";
+    }
+
+    $(idd).addClass(clas);
+    //$(idd).removeClass(id.className);
+}*/
